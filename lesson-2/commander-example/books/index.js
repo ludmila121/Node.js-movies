@@ -1,7 +1,7 @@
-const fs = require("fs/promises");
+ const fs = require("fs/promises");
 const path = require("path");
 const {nanoid} = require("nanoid");
-
+console.log(__dirname)
 const booksPath = path.join(__dirname, "books.json");
 
 const getAll = async () => {
